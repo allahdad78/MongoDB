@@ -1,0 +1,215 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+/* left side start */
+
+.main {
+    width: 385px;
+    height: 99vh;
+    position: relative;
+    left: 25px;
+    top: 25px;
+}
+
+.mongodb_img img {
+    width: 150px;
+    height: auto;
+}
+
+.para h1 {
+    margin: unset;
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 400;
+    font-family: "MongoDB Value Serif", "Times New Roman", serif;
+    color: rgb(0, 104, 74);
+}
+
+.para_2 h2 {
+    color: rgb(28, 45, 56);
+    font-size: 19px;
+    font-weight: bold;
+    display: block;
+    text-align: start;
+    font-family: sans-serif;
+}
+
+.para_2 span {
+    color: rgb(1, 107, 248);
+}
+
+.login_google {
+    width: 290px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    color: rgb(32, 29, 29);
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    font-family: "Euclid Circular A", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    border-radius: 6px;
+    color: rgb(0, 30, 43);
+    border: 1px solid black;
+    background-color: rgb(249, 251, 250);
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 30px;
+
+}
+
+.login_google img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+#img_2 {
+    width: 23px;
+    height: 23px;
+}
+
+.before-after-line {
+    position: relative;
+    padding: 1px 10px;
+    margin-top: 20px;
+}
+
+.before-after-line::before,
+.before-after-line::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 10%;
+    height: 1px;
+    background-color: #000;
+}
+
+.before-after-line::before {
+    left: 0;
+    transform: translateY(-20%);
+}
+
+.before-after-line::after {
+    right: 140px;
+    transform: translateY(20%);
+}
+
+.pass_h2 {
+    font-size: 13px;
+    margin-left: 36px;
+    line-height: 16px;
+    font-weight: normal;
+    color: rgb(92, 108, 117);
+}
+
+.email {
+    margin-top: 30px;
+}
+
+label {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin-bottom: 5px;
+    display: block;
+    color: rgb(61, 79, 88);
+    position: relative;
+    font-weight: bold;
+
+}
+
+input[type="email"] {
+    width: 281px;
+    max-width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+}
+
+input[type="email"]:focus {
+    border: 3px solid #007BFF;
+    outline: none;
+}
+
+.email {
+    margin-top: 30px;
+}
+
+.button {
+    margin-top: 40px;
+}
+
+.button button {
+    width: 100px;
+    font-family: sans-serif;
+    height: 32px;
+    font-size: 20px;
+    border: 1px solid rgb(0, 104, 74);
+
+    color: #889397;
+    border-radius: 6px;
+}
+/* left side end */
+.right_main{
+    display: inline-block;
+}
+.img img{
+width: 77%;
+height: 99vh;
+margin-top: -51%;
+margin-left: 344px;
+}
+
+
+
+.right_main{
+    position: relative;
+
+}
+
+.right_main .text{
+    position: absolute;
+    top: -650px;
+    left: 400px;
+}
+
+.right_main .text h2{
+    width: 320px;
+    font-size: 35px;
+    line-height: 40px;
+    color: white;
+    font-weight: bold;
+}
+
+.right_main .text p{
+    font-size: 16px;
+    line-height: 24px;
+    width: 290px;
+    padding: 30px 0px;
+    color: white;
+}
+.right_main .text h3 {
+    padding: 10px 0px;
+    font-size: 16px;
+    line-height: 24px;
+    width: 290px;
+    font-weight: 400;
+    color: white;
+}
+
+.right_main .text a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border-bottom: 1px solid;
+    padding-bottom: 2px;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 20px 0px;
+}
